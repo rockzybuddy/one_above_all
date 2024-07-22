@@ -87,7 +87,7 @@ function App() {
       <div className="unauthenticated-content__container">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Landing />} />
+            {/* <Route path="/" element={<Landing />} /> */}
             <Route path="*" element={<Login />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/signup" element={<Signup />} />
